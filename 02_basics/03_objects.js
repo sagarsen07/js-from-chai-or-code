@@ -18,18 +18,30 @@ const jsUser = {
 }
 
 // how to access objects?
-console.log(jsUser.email);
-console.log(jsUser["email"]);
-console.log(jsUser["full name"]);
-console.log(jsUser[mySym]);
-console.log(typeof jsUser[mySym]);
+// console.log(jsUser.email);
+// console.log(jsUser["email"]);
+// console.log(jsUser["full name"]);
+// console.log(jsUser[mySym]);
+// console.log(typeof jsUser[mySym]);
 
 // changing the values of the objects
 jsUser.email = "sagarsen@google.com";
-Object.freeze(jsUser)   // now no changes can be done in the object
+// Object.freeze(jsUser)   // now no changes can be done in the object
 jsUser.email = "sen@google.com";
 
-console.log(jsUser)
+// console.log(jsUser)
 
 
 // in javaScript functions are treated same as variables
+
+jsUser.greeting = function() {
+    console.log("Hello JS User");
+}
+jsUser.greetingTwo = function() {
+    console.log(`Hello JS User, ${this.name}`);
+}
+
+console.log(jsUser.greeting);
+console.log(jsUser.greeting());
+console.log(jsUser.greetingTwo);
+console.log(jsUser.greetingTwo());
