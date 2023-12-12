@@ -6,7 +6,7 @@ const tinderUser = {}     // it is a non singleton user
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sagar"
-tinderUser.isLogedIn = false
+tinderUser.isLoggedIn = false
 
 // console.log(tinderUser)
 
@@ -41,5 +41,34 @@ const obj2 = {3: "c" , 4: "d"}
 
 //                 OR        there is another method too
 
-const obj3 = {...obj1, ...obj2};
-console.log(obj3)
+const obj3 = {...obj1, ...obj2};   // it is the most used method
+//console.log(obj3)
+
+
+//           Array of Objects    -------------
+const user = [
+    {
+        id: 1,
+        email: "s@yahoo.com"
+    },
+    {
+        id: 2,
+        email: "sa@yahoo.com"
+    },
+    {
+        id: 3,
+        email: "sag@yahoo.com"
+    },
+    {
+        id: 4,
+        email: "saga@yahoo.com"
+    },
+]
+
+console.log(user[1].email);
+console.log(tinderUser)
+
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
