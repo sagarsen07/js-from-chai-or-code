@@ -8,13 +8,13 @@ let myDate = new Date()
 
 // console.log(typeof myDate)
 
-//let myCreatedDate = new Date(2023, 0, 12);
-//console.log(myCreatedDate.toDateString());
+// let myCreatedDate = new Date(2024, 0, 06);
+// console.log(myCreatedDate.toDateString());
 
 // let myCreatedDate = new Date(2023, 0, 12, 6, 23);
 // console.log(myCreatedDate.toLocaleString())
 
- let myCreatedDate = new Date("01-12-2023");
+// let myCreatedDate = new Date("01-12-2023");
 // console.log(myCreatedDate.toLocaleString())
 
 let myTampStamp = Date.now()
