@@ -45,8 +45,8 @@ let myYoutubeName = "Jacksen Talks";
 let anotherName = myYoutubeName;
 anotherName = "Jacksen Vlogs";
 
-console.log (myYoutubeName);
-console.log (anotherName);
+// console.log (myYoutubeName);
+// console.log (anotherName);
 
 let userOne = {
     email: "sagar@xyz",
@@ -57,5 +57,5 @@ let userTwo = userOne;
 
 userTwo.email = "user@google.com";
 
-console.log (userOne.email);
-console.log (userTwo.email);
+// console.log (userOne.email);
+// console.log (userTwo.email);

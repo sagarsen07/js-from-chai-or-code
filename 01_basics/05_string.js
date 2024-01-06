@@ -19,23 +19,23 @@ const gameName = new String('SagarSenJi');
 // console.log (gameName.indexOf('a'));
 
 const newString = gameName.substring(2,4);
-console.log(newString);
+// console.log(newString);
 
 const anotherString = gameName.slice(-4, 8);
-console.log(anotherString) // it is same as subString but the only difference is that we can use negative value in slice for starting from back
+// console.log(anotherString) // it is same as subString but the only difference is that we can use negative value in slice for starting from back
 
 const newStringOne = "    Sagar   ";
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne.trim());
+// console.log(newStringOne);
 
 const url = "https://sagar.com/sagar%20sen"
-console.log(url.replace('%20', '-'))
+// console.log(url.replace('%20', '-'))
 
 
 //find a substring in  a string
-console.log(url.includes('sen'))
-console.log(url.includes('senji'))
+// console.log(url.includes('sen'))
+// console.log(url.includes('senji'))
 
 
 const newStr = "sagar-sen-is-a-good-boy";
-console.log (newStr.split('-'));
+// console.log (newStr.split('-'));
