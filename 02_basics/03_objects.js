@@ -1,7 +1,7 @@
 // objects can be declared in two ways (1)literals type, (2) constructor type
 
 // singleton (constructor se banane pe singleton banta hai)
-
+// object.create  // constructor method
 // Object Literals
 
 const mySym = Symbol("key1")
@@ -41,7 +41,7 @@ jsUser.greetingTwo = function() {
     console.log(`Hello JS User, ${this.name}`);
 }
 
-console.log(jsUser.greeting);
-console.log(jsUser.greeting());
-console.log(jsUser.greetingTwo);
-console.log(jsUser.greetingTwo());
+// console.log(jsUser.greeting);
+// console.log(jsUser.greeting());
+// console.log(jsUser.greetingTwo);
+// console.log(jsUser.greetingTwo());
