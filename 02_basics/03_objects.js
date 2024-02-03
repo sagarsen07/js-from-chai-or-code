@@ -23,6 +23,8 @@ const jsUser = {
 // console.log(jsUser["full name"]);
 // console.log(jsUser[mySym]);
 // console.log(typeof jsUser[mySym]);
+// console.log(jsUser.age);
+// console.log(jsUser["age"]);
 
 // changing the values of the objects
 jsUser.email = "sagarsen@google.com";
