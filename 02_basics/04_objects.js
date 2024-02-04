@@ -70,5 +70,37 @@ const user = [
 
 // console.log(Object.keys(tinderUser))
 // console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+//////////////////// OBJECT DESTRUCTURING ??????????
+
+const  course = {
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Sagar"
+}
+
+// console.log(course.courseInstructor)
+// there is another efficient method exist tahat is extraction method
+// in this method we extract the value from the object
+//e.g.
+
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+
+// we can also set another temproary name to print it
+const{courseInstructor: teacher} = course
+console.log(teacher);
+
+
+
+
+
+
+// JSON
+// json is a object that doesnt have a name
