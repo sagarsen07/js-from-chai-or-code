@@ -104,5 +104,5 @@ function returnSecondValue (getArray) {
     return getArray[1];
 }
 
-console.log(returnSecondValue(myArray));
-console.log(returnSecondValue([1000,2000,3000,4000]));
+// console.log(returnSecondValue(myArray));
+// console.log(returnSecondValue([1000,2000,3000,4000]));
