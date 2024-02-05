@@ -21,3 +21,43 @@ if (true){
 
 // same as in C++
 //// lec 21 ended
+
+
+
+// function one(){
+//     const userName = "Sagar";
+
+//     function two (){
+//         const website = "GitHub";
+//         console.log(userName);
+//     }
+//     // console.log(website);
+//     two();
+// }
+// one();
+
+
+// if (true){
+//     const userName = "Sagar";
+//     if (userName === "Sagar"){
+//         const website = "youtube";
+//         console.log(userNmae + website);
+//     }
+//     console.log(website);   // it is a error
+// }
+// console.log(userName);   // it is also a error
+
+
+
+// +++++++++++++++++ INTRESTING ++++++++++++++++++++++++
+
+console.log(addOne(5));    // this will not give any error
+function addOne (num){
+    return num+1;
+}
+
+
+addTwo(5);     // but this will give a error because of it is stored in a variable hence it should be called after the function declaration. we will study more about it in the topic #hoisting
+const addTwo = function(num){
+    return num+2;
+}
